@@ -17,7 +17,7 @@ VERDE = (0, 255, 0)
 GrisPlata = (192, 192, 192)
 
 # Cargar la imagen de la nave y redimensionarla
-nave_img = pygame.image.load('img/naveUsuario.png')  o
+nave_img = pygame.image.load('img/naveUsuario.png') 
 nave_img = pygame.transform.scale(nave_img, (60, 40))  
 
 # Cargar imagen de asteroide y redimensionar
